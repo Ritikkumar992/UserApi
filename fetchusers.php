@@ -18,7 +18,7 @@
   else{
 
     $response['status']="400";
-    $response['users'][]="";
+    $response['users'][]= (object)[];
 
 
   }
